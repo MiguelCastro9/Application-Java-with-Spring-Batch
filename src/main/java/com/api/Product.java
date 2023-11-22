@@ -1,20 +1,10 @@
-package com.api.model;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+package com.api;
 
 /**
  *
  * @author Miguel Castro
  */
-@Entity
 public class Product {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     private String name;
 
@@ -23,18 +13,9 @@ public class Product {
     public Product() {
     }
 
-    public Product(Long id, String name, Double price) {
-        this.id = id;
+    public Product(String name, Double price) {
         this.name = name;
         this.price = price;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -51,5 +32,10 @@ public class Product {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" + "name=" + name + ", price=" + price + '}';
     }
 }
