@@ -1,6 +1,6 @@
 ## Overview
 
-Application developed using Spring Batch, the application performs the job to read data from a .csv file, processes the data and stores the data in the database.
+Application developed using <strong>Spring Batch</strong>, the application performs the job to read data from a .csv file, processes the data and stores the data in the database.
 
 ## Execution
 
