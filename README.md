@@ -8,6 +8,7 @@ Tools:
 <li> Java 17 </li>
 <li> SpringBoot 3.1.5 </li>
 <li> Spring Batch </li>
+<li> HyperSQL </li>
 <li> Docker </li>
 <br>
 <strong>Back-end: </strong>
