@@ -1,6 +1,8 @@
 ## Overview
 
-Application developed using <strong>Spring Batch</strong>, the application performs the job to read data from a .csv file, processes the data and stores the data in the database.
+Import the project into an IDE of your choice, the IDE used in the development was the Netbeans IDE, 
+so just build the application to download the dependencies that are managed by Maven, but first, 
+Docker must be installed and the container images encoded in the <code>docker-compose.yml</code> file initialized, with the <code>docker-compose up --build</code> command.
 
 ## Execution
 
@@ -15,3 +17,6 @@ Import the project into an IDE of your choice, the IDE used in the development w
 so just build the application to download the dependencies that are managed by Maven.
 
 ## Demo
+
+https://github.com/MiguelCastro9/Application-Java-with-Spring-Batch/assets/56695817/fe072cfa-a0e7-42cf-b934-5345935f65b9
+
