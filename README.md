@@ -8,6 +8,7 @@ Tools:
 <li> Java 17 </li>
 <li> SpringBoot 3.1.5 </li>
 <li> Spring Batch </li>
+<li> Docker </li>
 <br>
 <strong>Back-end: </strong>
 Import the project into an IDE of your choice, the IDE used in the development was the Netbeans IDE, 
