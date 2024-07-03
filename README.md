@@ -10,7 +10,9 @@ Tools:
 <li> Spring Batch </li>
 <li> HyperSQL </li>
 <li> Docker </li>
+
 <br>
+
 <strong>Back-end: </strong>
 Import the project into an IDE of your choice, the IDE used in the development was the Netbeans IDE, 
 so just build the application to download the dependencies that are managed by Maven, but first, 
